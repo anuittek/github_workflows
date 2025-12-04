@@ -50,5 +50,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
         with:
-          tag-prefix: ci-
+          tag-prefix: main-
           commit-message: "ci: version bump to {{version}} [skip ci]"
